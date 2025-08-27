@@ -1,1 +1,15 @@
 this i smy first file
+
+pipeline {
+ stages {
+
+    stage {
+      step{
+  sh " echo this i smy task "
+}
+}
+
+ }
+
+
+}
